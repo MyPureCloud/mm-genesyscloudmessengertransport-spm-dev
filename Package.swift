@@ -16,8 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "GenesysCloudMessengerTransport",
-            url: "https://github.com/MyPureCloud/genesys-messenger-transport-mobile-sdk/releases/download/v2.9.3-rc3/MessengerTransport.xcframework.zip",
-            checksum: "02b6477b345f86758d265a4661db1aa4d59a56f1e6a6b2dc745a8cf98f601060"
+            url: "https://github.com/MyPureCloud/genesys-messenger-transport-mobile-sdk/releases/download/v2.10.0-rc4/MessengerTransport.xcframework.zip",
+            checksum: "f46fab7634f47ad28a9d05635fcca7fc3fe44c162afe08df3fc8d9bf142150dc"
         ),
         .testTarget(name: "PackageTests", dependencies: [
             "GenesysCloudMessengerTransport"
